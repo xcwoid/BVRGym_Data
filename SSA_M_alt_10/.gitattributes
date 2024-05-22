@@ -1,0 +1,8 @@
+SSA_n10_n10.npy filter=lfs diff=lfs merge=lfs -text
+SSA_p00_n10.npy filter=lfs diff=lfs merge=lfs -text
+SSA_p025_n10.npy filter=lfs diff=lfs merge=lfs -text
+SSA_p05_n10.npy filter=lfs diff=lfs merge=lfs -text
+SSA_p075_n10.npy filter=lfs diff=lfs merge=lfs -text
+SSA_n025_n10.npy filter=lfs diff=lfs merge=lfs -text
+SSA_n05_n10.npy filter=lfs diff=lfs merge=lfs -text
+SSA_n075_n10.npy filter=lfs diff=lfs merge=lfs -text
