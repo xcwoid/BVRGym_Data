@@ -237,10 +237,10 @@ if __name__ == '__main__':
                 print(m,d)
                 for e in range(args['eps']):
                     if d == 'alt10':
-                        pth = 'jsb_gym/logs/SSA_M_alt_10/'
+                        pth = 'SSA_M_alt_10/'
                         overwrite = True
                     elif d == 'alt10c':
-                        pth = 'jsb_gym/logs/SSA_M_alt_10_crank/'
+                        pth = 'SSA_M_alt_10_crank/'
                         overwrite = False
                     else:
                         print('Wrong path')
@@ -271,7 +271,7 @@ if __name__ == '__main__':
                 if args['cluster']:
                     pth = '/local_storage/users/scukins/SSA_M_alt_10/'
                 else:
-                    pth = 'jsb_gym/logs/SSA_M_alt_10/'
+                    pth = 'SSA_M_alt_10/'
                     #pth = '../logs/SSA_M_alt_10/'
                 overwrite = True
             elif args['data'] == 'alt10c':
@@ -279,7 +279,7 @@ if __name__ == '__main__':
                     pth = '/local_storage/users/scukins/SSA_M_alt_10_crank/'
                 else:
                     #pth = '../logs/SSA_M_alt_10_crank/'
-                    pth = 'jsb_gym/logs/SSA_M_alt_10_crank/'
+                    pth = 'SSA_M_alt_10_crank/'
                 overwrite = False
             else:
                 print('Wrong path')
